@@ -3,11 +3,11 @@ header{
   position: fixed;
   width:100%;
   background:#fff;
+  padding: 15px 0;
 }
 .inner{
   width:1100px;
   margin: 0 auto;
-  padding: 15px 0;
 }
 .contact{
   color:#ffffff;
@@ -27,8 +27,11 @@ header{
   background-image: url(../img/keyvisual/keyvisual.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding:400px 0;
+  padding-top:78px;
   text-align: center;
+}
+.pad{
+  padding:400px 0;
 }
 h1{
   font-size: 65px;
@@ -36,13 +39,19 @@ h1{
   color: #6ba7eb;
 }
 .middle--headline{
-  font-size: 40px;
   font-weight: 700;
   color: #fff;
   margin-top: 30px;
 }
 .work{
   background: #e3f2fd;
+  padding:50px;
+}
+h2{
+  font-size: 40px;
+}
+.w-headline{
+  letter-spacing: 10px;
 }
 .work--box{
   display: flex;
@@ -52,10 +61,11 @@ h1{
 }
 .pc--img{
 width:40%;
-margin:50px 50px 0 50px;
+margin-top:50px;
+text-align: center;
 }
 .pc--img img{
-  width: 100%;
+  width: 250px;
   height: auto;
 }
 .text{
@@ -71,6 +81,7 @@ h3{
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
+  margin-top: 35px;
 }
 .skills{
   margin-top:50px;
