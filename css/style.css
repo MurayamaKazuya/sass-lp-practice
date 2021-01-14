@@ -45,7 +45,7 @@ h1{
 }
 .work{
   background: #e3f2fd;
-  padding:50px;
+  padding-top:50px;
 }
 h2{
   font-size: 40px;
@@ -61,7 +61,6 @@ h2{
 }
 .pc--img{
 width:40%;
-margin-top:50px;
 text-align: center;
 }
 .pc--img img{
