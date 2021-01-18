@@ -83,25 +83,26 @@ h3{
   margin-top: 35px;
 }
 .skills{
-  padding:50px 0 20px 0;
+  padding:50px 0 70px 0;
 }
-.flex{
-  text-align: justify;
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
-.flex:after {
-	content:"";
-	display: inline-block;
-	width: 100%;
-	line-height:0;
-	height: 0;
-}
-.flex li{
-  display: inline-block;
+li{
   width:calc(100%/3);
   width:300px;
   height: 300px;
   text-align: center;
-  margin: 50px 0;
+  margin: 50px 100px 50px 0;
+  float: left;
+}
+li:nth-child(3n){
+  margin-right:0;
+}
+li:nth-child(3n):nth-last-child(-n+3) ~ li{
+  margin-bottom:0;
 }
 .skill{
   opacity:0.7;
