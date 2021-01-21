@@ -108,6 +108,7 @@ h3{
 }
 .skill{
   opacity:0.7;
+  transition: 0.7s;
 }
 .skill:hover{
   opacity:1;
