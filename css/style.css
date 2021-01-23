@@ -258,7 +258,7 @@ footer{
     display: none;
   }
   .pad{
-  padding:200px;
+  padding:200px 0;
   }
   .keyvisual h1{
   font-size:40px;
