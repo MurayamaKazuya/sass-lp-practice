@@ -196,7 +196,7 @@ footer{
 }
 @media screen and (max-width:1199px){
   .pad{
-  padding:250px;
+  padding:250px 0;
   }
   .work{
   padding:50px 0;
@@ -208,9 +208,7 @@ footer{
     width:100%;
   }
   .text{
-    width:100%
-  }
-  .w-headline{
+    width:100%;
     margin-top:20px;
   }
   .s-img li{
@@ -226,20 +224,22 @@ footer{
 }
 @media screen and (max-width:767px){
   .contact{
-    font-size:0;
+    display: none;
+  }
+  .menu-btn {
     position: fixed;
     top: 10px;
     right: 10px;
     display: flex;
-    height: 30px;
-    width: 30px;
+    height: 48px;
+    width: 48px;
     justify-content: center;
     align-items: center;
-    z-index: 90;
     background-color: #3584bb;
-    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 5px;
   }
-  .contact span,.contact::before,.contact::after {
+  .menu-btn span,.menu-btn span:before,.menu-btn span:after {
     content: '';
     display: block;
     height: 3px;
@@ -248,11 +248,14 @@ footer{
     background-color: #ffffff;
     position: absolute;
   }
-  .contact::before {
-    transform: translateY(-16px);
+  .menu-btn span:before {
+    bottom: 10px;
   }
-  .contact::after {
-    transform: translateY(16px);
+  .menu-btn span:after {
+    top: 10px;
+  }
+  #menu-btn-check {
+    display: none;
   }
   .pad{
   padding:200px;
