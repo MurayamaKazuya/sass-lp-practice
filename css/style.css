@@ -186,15 +186,13 @@ footer{
   letter-spacing: 0.5px;
   text-align: right;
 }
-@media screen and (max-width:1099px){
-  .bar{
-    width:100%;
-  }
-  .inner{
-    width: 100%;
-  }
+#menu-btn-check {
+  display: none;
 }
 @media screen and (max-width:1199px){
+  .inner{
+    width: 97%;
+  }
   .pad{
   padding:250px 0;
   }
@@ -211,15 +209,22 @@ footer{
     width:100%;
     margin-top:20px;
   }
+  .center{
+    display: flex;
+    justify-content: center;
+  }
   .s-img li{
     float:none;
-    margin: 0 auto;
+    margin:0;
   }
   .s-img li:nth-child(3n+1){
     margin-top:80px;
   }
-  .s-img li:nth-child(3n){
-    margin:0 auto;
+  .s-img li:first-child{
+    margin-top: 0;
+  }
+  .skills{
+    display: block;
   }
 }
 @media screen and (max-width:767px){
@@ -253,9 +258,6 @@ footer{
   }
   .menu-btn span:after {
     top: 10px;
-  }
-  #menu-btn-check {
-    display: none;
   }
   .pad{
   padding:200px 0;
