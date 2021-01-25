@@ -103,7 +103,7 @@ h3{
 .s-img li:nth-child(3n){
   margin-right:0;
 }
-.s-img li:nth-child(3n):nth-last-child(-n+4){
+.s-img li:nth-child(3n):nth-last-child(-n+4) ~ li{
   margin-bottom:0;
 }
 .skill{
