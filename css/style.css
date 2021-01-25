@@ -103,7 +103,7 @@ h3{
 .s-img li:nth-child(3n){
   margin-right:0;
 }
-.s-img li:nth-child(3n):nth-last-child(-n+4) ~ li{
+.s-img li:nth-child(3n):nth-last-child(-n+4){
   margin-bottom:0;
 }
 .skill{
@@ -217,8 +217,11 @@ footer{
     float:none;
     margin:0;
   }
-  .s-img li:nth-child(3n+1):nth-child(n+2){
+  .s-img li:nth-child(3n+1){
     margin-top:80px;
+  }
+  .s-img li:nth-child(1){
+    margin-top: 0;
   }
 }
 @media screen and (max-width:767px){
