@@ -240,9 +240,10 @@ footer{
     width: 48px;
     justify-content: center;
     align-items: center;
-    background-color: #3584bb;
+    background-color: #ffffff;
     cursor: pointer;
     border-radius: 5px;
+    border: 1px solid #b3b3b3;
   }
   .menu-btn span,.menu-btn span:before,.menu-btn span:after {
     content: '';
@@ -250,7 +251,7 @@ footer{
     height: 3px;
     width: 25px;
     border-radius: 3px;
-    background-color: #ffffff;
+    background-color: #b3b3b3;
     position: absolute;
   }
   .menu-btn span:before {
