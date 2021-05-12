@@ -34,16 +34,12 @@ header .inner .contact {
   }
 }
 
-header .inner .contact::before {
+header .inner .contact:hover {
   color: #333;
 }
 
-header .inner .contact .menu-btn {
-  display: none;
-}
-
 @media screen and (max-width: 767px) {
-  header .inner .contact .menu-btn {
+  header .inner .menu-btn {
     position: fixed;
     top: 10px;
     right: 10px;
@@ -57,7 +53,7 @@ header .inner .contact .menu-btn {
     border: 1px solid #b3b3b3;
     width: 48px;
   }
-  header .inner .contact .menu-btn span, header .inner .contact .menu-btn span:before, header .inner .contact .menu-btn span:after {
+  header .inner .menu-btn span, header .inner .menu-btn span:before, header .inner .menu-btn span:after {
     content: '';
     height: 3px;
     width: 25px;
@@ -66,10 +62,10 @@ header .inner .contact .menu-btn {
     position: absolute;
     display: block;
   }
-  header .inner .contact .menu-btn span:before {
+  header .inner .menu-btn span:before {
     bottom: 10px;
   }
-  header .inner .contact .menu-btn span:after {
+  header .inner .menu-btn span:after {
     top: 10px;
   }
 }
@@ -261,22 +257,22 @@ h3 {
   }
 }
 
-.skills .inner .s-img li :nth-child(-n+3) {
+.skills .inner .s-img li:nth-child(-n+3) {
   margin-top: 0;
 }
 
-.skills .inner .s-img li :nth-child(3n+1) {
+.skills .inner .s-img li:nth-child(3n+1) {
   margin-left: 0;
 }
 
 @media screen and (max-width: 1199px) {
-  .skills .inner .s-img li :nth-child(3n+1) {
+  .skills .inner .s-img li:nth-child(3n+1) {
     margin-top: 80px;
   }
 }
 
 @media screen and (max-width: 1199px) {
-  .skills .inner .s-img li :nth-child(1) {
+  .skills .inner .s-img li:nth-child(1) {
     margin-top: 0px;
   }
 }
@@ -286,7 +282,7 @@ h3 {
   transition: 0.7s;
 }
 
-.skills .inner .s-img li .skill :hover {
+.skills .inner .s-img li .skill:hover {
   opacity: 1;
 }
 
@@ -362,7 +358,7 @@ h3 {
   border-right: 2px solid white;
 }
 
-.plan .inner .cell tr td :last-child {
+.plan .inner .cell tr td:last-child {
   border-right: none;
 }
 
@@ -416,7 +412,7 @@ h3 {
   padding: 25px 0;
 }
 
-.sns .inner .out--icon .icon :hover {
+.sns .inner .out--icon .icon:hover {
   background: #fff;
 }
 
@@ -446,4 +442,8 @@ footer .inner .copy {
   font-size: 10px;
   letter-spacing: 0.5px;
   text-align: right;
+}
+
+#menu-btn-check {
+  display: none;
 }

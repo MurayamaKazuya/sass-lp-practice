@@ -40,39 +40,38 @@ header{
       @include sp {
         display: none;
       }
-      &::before{
+      &:hover{
         color:#333
       }
-      .menu-btn {
-        display: none;
-        @include sp{
-          position: fixed;
-          top: 10px;
-          right: 10px;
-          display: flex;
-          height: 48px;
-          justify-content: center;
-          align-items: center;
-          background-color: #ffffff;
-          cursor: pointer;
-          border-radius: 5px;
-          border: 1px solid #b3b3b3;
-          width: 48px;
-          span, span:before,span:after {
-            content: '';
-            height: 3px;
-            width: 25px;
-            border-radius: 3px;
-            background-color: #b3b3b3;
-            position: absolute;
-            display: block;
-          }
-          span:before{
-            bottom: 10px;
-          }
-          span:after{
-            top: 10px
-          }
+    }
+    .menu-btn {
+      @include sp{
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        display: flex;
+        height: 48px;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 1px solid #b3b3b3;
+        width: 48px;
+        span, span:before,span:after {
+          content: '';
+          height: 3px;
+          width: 25px;
+          border-radius: 3px;
+          background-color: #b3b3b3;
+          position: absolute;
+          display: block;
+        }
+        span:before{
+          bottom: 10px;
+        }
+        span:after{
+          top: 10px
         }
       }
     }
@@ -198,24 +197,24 @@ h3{
           position: relative;
           left: -50%;
         }
-        :nth-child(-n+3){
+        &:nth-child(-n+3){
           margin-top:0;
         }
-        :nth-child(3n+1){
+        &:nth-child(3n+1){
           margin-left:0;
           @include tab{
             margin-top: 80px;
           }
         }
         @include tab{
-          :nth-child(1){
+          &:nth-child(1){
           margin-top: 0px;
           }
         }
         .skill{
           opacity:0.7;
           transition: 0.7s;
-          :hover{
+          &:hover{
             opacity:1;
           }
           img{
@@ -271,7 +270,7 @@ h3{
           line-height: 22px;
           padding:10px;
           border-right: 2px solid white;
-          :last-child{
+          &:last-child{
             border-right:none;
           }
           @include sp{
@@ -306,7 +305,7 @@ h3{
         font-size:40px;
         transition: 0.5s;
         padding:25px 0;
-        :hover{
+        &:hover{
           background:#fff;
         }
         @include sp{
@@ -328,4 +327,7 @@ footer{
       text-align: right;
     }
   }
+}
+#menu-btn-check{
+  display: none;
 }
