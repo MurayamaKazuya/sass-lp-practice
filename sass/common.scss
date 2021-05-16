@@ -251,14 +251,14 @@ h3{
       border-collapse:collapse;
       tr{
         background: #e0efff;
-        :nth-child(2n-1){
+        &:nth-child(2n-1){
           background: #f9f9f9;
         }
         th{
           background:#6ba7eb;
           padding:10px;
           border-right: 2px solid white;
-          :last-child{
+          &:last-child{
             border-right:none;
           }
           @include sp {

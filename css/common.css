@@ -331,7 +331,7 @@ h3 {
   background: #e0efff;
 }
 
-.plan .inner .cell tr :nth-child(2n-1) {
+.plan .inner .cell tr:nth-child(2n-1) {
   background: #f9f9f9;
 }
 
@@ -341,7 +341,7 @@ h3 {
   border-right: 2px solid white;
 }
 
-.plan .inner .cell tr th :last-child {
+.plan .inner .cell tr th:last-child {
   border-right: none;
 }
 
