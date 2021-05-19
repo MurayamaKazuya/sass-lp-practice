@@ -88,6 +88,7 @@ header{
     padding:400px 0;
     @include sp{
       top: 10px;
+      padding:200px 0;
     }
     .inner{
       @include inner;
@@ -115,7 +116,7 @@ header{
   background: #e3f2fd;
   padding-top:50px;
   @include tab {
-    padding: 250px 0;
+    padding: 50px 0;
   }
   .inner{
     @include inner;
@@ -309,7 +310,7 @@ h3{
           background:#fff;
         }
         @include sp{
-          padding: 50px 0;
+          padding: 50px 100%;
         }
       }
     }

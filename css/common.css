@@ -85,6 +85,7 @@ header .inner .contact:hover {
 @media screen and (max-width: 767px) {
   .keyvisual .pad {
     top: 10px;
+    padding: 200px 0;
   }
 }
 
@@ -130,7 +131,7 @@ header .inner .contact:hover {
 
 @media screen and (max-width: 1199px) {
   .work {
-    padding: 250px 0;
+    padding: 50px 0;
   }
 }
 
@@ -418,7 +419,7 @@ h3 {
 
 @media screen and (max-width: 767px) {
   .sns .inner .out--icon .icon {
-    padding: 50px 0;
+    padding: 50px 100%;
   }
 }
 
