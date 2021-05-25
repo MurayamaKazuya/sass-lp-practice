@@ -420,6 +420,7 @@ h3 {
 @media screen and (max-width: 767px) {
   .sns .inner .out--icon .icon {
     padding: 50px 0;
+    width: 100%;
   }
 }
 
